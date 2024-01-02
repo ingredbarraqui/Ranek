@@ -1,0 +1,8 @@
+.logo {
+    width: 90px;
+}
+
+.header {
+    padding: 15px 20px;
+    box-shadow: 0 2px 4px rgba(30, 60, 90, .1);
+}

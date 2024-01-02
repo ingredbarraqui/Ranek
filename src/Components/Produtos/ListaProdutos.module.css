@@ -1,0 +1,19 @@
+.produto {
+    background: #fff;
+    padding: 10px;
+    border: 1px solid #EAEAEA;
+    list-style: none;
+}
+
+.produto span {
+    color: #0d6efd;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    border-top: solid 1px #EAEAEA;
+    border-bottom: solid 1px #EAEAEA;
+}
+
+.produto h3 {
+    text-align: center;
+}
