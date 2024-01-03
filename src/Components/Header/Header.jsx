@@ -1,13 +1,15 @@
 import React from 'react'
-import Button from 'react-bootstrap/Button';
 import raneck from "../../assets/ranek.svg"
 import styles from "./Header.module.css"
+import { Link } from 'react-router-dom';
 
 const Header = () => {
     return (
-        <header className={`${styles.header} d-flex justify-content-between`}>
-            <img className={styles.logo} src={raneck} />
-            <Button>Vender / Login</Button>
+        <header >
+            <nav className={`${styles.header} d-flex justify-content-between align-items-center`}>
+                <Link to="/" className={styles.logo}><img className='w-100' src={raneck} /></Link >
+                <Link to="/Login"><button className='btn btn-primary'>Vender / Login</button></Link>
+            </nav>
         </header>
     )
 }

@@ -1,0 +1,18 @@
+.login h1 {
+    color: #0d6efd;
+    margin-top: 40px;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.login form {
+    padding: 20px 0;
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+.login .checkbox {
+    width: initial;
+    margin-right: 5px;
+}

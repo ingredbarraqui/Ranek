@@ -26,7 +26,7 @@ const ListaProdutos = () => {
                             <div className='d-flex flex-column pt-2'>
                                 <h3>{produto.nome}</h3>
                                 <p className='my-0'>{produto.descricao}</p>
-                                <span className="my-2 py-2">R${produto.preco.replace(/(\d)(?=(\d{3})+(?!\d))/g, '$1,')}</span>
+                                <span className="my-2 py-2">R${Number(produto.preco).toFixed(2).replace(/(\d)(?=(\d{3})+(?!\d))/g, '$1,')}</span>
                                 <button className='btn btn-primary'>Comprar</button>
                             </div>
 
