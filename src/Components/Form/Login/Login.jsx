@@ -7,11 +7,6 @@ import Cadastro from '../Cadastro/Cadastro'
 const Login = ({ }) => {
     const [cadastro, setCadastro] = React.useState(false)
 
-    function handleClick() {
-        setCadastro(true)
-    }
-
-
     return (
         <div className={`${styles.login} container`}>
             <h1 >Login</h1>
@@ -31,7 +26,7 @@ const Login = ({ }) => {
             </form>
             <div className="mb-2 text-center">
                 <p className='m-1'>Crie a Sua Conta</p>
-                {!cadastro && < button className="btn btn-secondary" onClick={handleClick}>Criar conta</button>}
+                {!cadastro && < button className="btn btn-secondary" onClick={() => { setCadastro(true) }}>Criar conta</button>}
             </div>
             {cadastro && <Cadastro />}
         </div >

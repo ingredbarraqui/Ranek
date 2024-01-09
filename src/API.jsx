@@ -8,5 +8,4 @@ export function PRODUTOS_GET() {
             Cache: 'no-store',
         }
     }
-    console.log(url)
 }
