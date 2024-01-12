@@ -1,6 +1,6 @@
 # React + Vite
 
-Projeto React E-comerce Origamid
+Projeto React E-comerce React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
